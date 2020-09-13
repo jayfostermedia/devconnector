@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://dbmern2020:dbmern2020@devconnector.ll5k4.mongodb.net/<dbname>?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://dbmern2020:dbmern2020@devconnector.ll5k4.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecret": "mySecretToken"
 }
