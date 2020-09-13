@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://dbmern2020:dbmern2020@devconnector.ll5k4.mongodb.net/<dbname>?retryWrites=true&w=majority",
-  "jwtSecret": "mySecretToken"
+  "jwtSecret": "mySecretToken",
+  "githubClientId": "49db42a3d4deb3552272",
+  "githubSecret": "2b9db0833f08a58fe597b06daee1db9a9a9be5ca"
 }
