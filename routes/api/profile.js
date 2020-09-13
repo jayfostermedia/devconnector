@@ -101,7 +101,7 @@ router.post(
 );
 
 // @route       GET api/profile/user/:user_id
-// @desc        Get all profiles
+// @desc        Get single user by id
 // @access      Public
 router.get('/user/:user_id', async (req, res) => {
   try {
