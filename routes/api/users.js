@@ -29,6 +29,7 @@ router.post(
     const { name, email, password } = req.body;
 
     try {
+      // Check if user already exists
       let user = await User.findOne({ email });
       if (user) {
         return res
@@ -41,7 +42,7 @@ router.post(
         r: 'pg',
         d: 'mm',
       });
-      // create new user
+      // Create new user
       user = new User({
         name,
         email,
@@ -61,6 +62,7 @@ router.post(
         },
       };
 
+      // Web token
       jwt.sign(
         payload,
         config.get('jwtSecret'),
